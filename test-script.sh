@@ -1,2 +1,6 @@
 #! /bin/sh
-echo "checking scriptfile2.txt"
+ls -alh
+cd test
+ls -alh
+
+
