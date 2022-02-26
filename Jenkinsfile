@@ -8,7 +8,7 @@ pipeline {
          echo "say hi!"
        }
       }
-     stage('after') {
+     stage('echo') {
         echo "stage 2 after stage 1"
       }
    }
