@@ -3,7 +3,7 @@ pipeline {
    stages {
      stage('echo') {
        steps {
-         echo "say hi!"
+         echo "say hi! from the hook side"
        }
      }
    }
