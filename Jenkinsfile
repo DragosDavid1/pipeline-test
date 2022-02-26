@@ -9,7 +9,7 @@ pipeline {
        }
       }
      stage('after') {
-        touch test.txt
+        echo "stage 2 after stage 1"
       }
    }
 }
