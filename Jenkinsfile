@@ -2,9 +2,6 @@ pipeline {
    agent {
      label "master-piece"
    }
-   tools {
-     //some tools
-   }
    stages {
      stage('echo') {
        steps {
@@ -12,7 +9,7 @@ pipeline {
        }
       }
      stage('after') {
-        //some commands after 1st stage
+        touch test.txt
       }
    }
 }
